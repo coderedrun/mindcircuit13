@@ -22,8 +22,8 @@ pipeline {
                 sh 'ls -ltr'
                 
                 sh ''' mvn sonar:sonar \\
-                      -Dsonar.host.url=http://3.91.246.187:9000 \\
-                      -Dsonar.login=sqa_e9ba88e216daafa22735f8af9575e9622a630ea4'''
+                      -Dsonar.host.url=http://54.196.5.49:9000 \\
+                      -Dsonar.login=sqa_50f747aeb2c836da05d693b76c902482ad289942'''
             }
     	}
 		
