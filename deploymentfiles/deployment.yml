@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: mc-app
-        image: ramcharanmandala/cicdproject:1
+        image: ramcharanmandala/cicdproject:3
         ports:
         - containerPort: 8080
 
